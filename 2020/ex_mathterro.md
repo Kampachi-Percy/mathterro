@@ -1,6 +1,6 @@
 # 初期の数テロ
 
-<details><summary>2020/09/09</summary>
+## 2020/09/09</summary>
 <div>
 
 出典：黄チャート数学1_ex31
@@ -14,7 +14,7 @@ C={x|xは4の倍数} とする.
 1. $x$ が $C$ に含まれないことが, $x$ が $A \cap B$ に含まれないことの十分条件であることを示せ.
 </div></details>
 
-<details><summary>2020/09/02</summary>
+## 2020/09/02</summary>
 <div>
 
 原案：2020年度第2回全統高1模試大問4
@@ -26,7 +26,7 @@ $a$ を正の定数とする. 座標平面上に $P(-1, 2)$, $Q(2, 6)$, $R(-1, 0
 
 </div></details>
 
-<details><summary>2020/08/19</summary>
+## 2020/08/19</summary>
 <div>
 
 出典：Winning3年数学
@@ -35,7 +35,7 @@ $a$ を正の定数とする. 座標平面上に $P(-1, 2)$, $Q(2, 6)$, $R(-1, 0
 
 </div></details>
 
-<details><summary>2020/08/12</summary>
+## 2020/08/12</summary>
 <div>
 
 出典：Winning3年数学p227大問7
@@ -45,15 +45,15 @@ $C$ 上の点 $P$ が, $\triangle{OAB}=\triangle{PAB}$ を満たすとき, $P$ �
 
 </div></details>
 
-<details><summary>2020/08/05</summary>
+## 2020/08/05</summary>
 <div>未記入
 </div></details>
 
-<details><summary>2020/07/29</summary>
+## 2020/07/29</summary>
 <div>未記入
 </div></details>
 
-<details><summary>2020/07/22</summary>
+## 2020/07/22</summary>
 <div>
 
 出典：Winning3年数学p227大問4
