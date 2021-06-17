@@ -1,4 +1,8 @@
 import random
+# タイマー
+import time
+start = time.time()
+# 以下に本処理
 
 score = 0
 result_counter = {}
@@ -6,7 +10,7 @@ for i in range(1000):
     result_counter[i+1] = 0
 
 # 繰り返し回数
-c = 10000000
+c = 100000000
 
 for i in range(c):
     while True:
@@ -32,3 +36,10 @@ s = "\n".join(results)
 
 with open("histdata.csv", mode="w", encoding="utf-8") as hist:
     hist.write(s)
+
+
+# 以上に本処理
+# 以下タイマーストップ
+stop = time.time()
+elapsed_time = stop - start
+print(f"{elapsed_time} [sec]")
