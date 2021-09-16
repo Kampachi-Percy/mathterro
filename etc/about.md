@@ -55,13 +55,15 @@
 
 |略語|正式名称|日本語|備考|
 |---|---|---|---|
-|alg|**alg**ebra|代数学|整数問題|
-|calc|**calc**ulus|微分積分学||
 |eq|**eq**uation|方程式||
 |func|**func**tion|関数||
-|geom|**geom**etry|幾何学||
+|trig|**trig**onometric function​s|三角関数||
+|exp|**exp**onential|指数関数|
+|log|**log**arithm|対数関数|
+|calc|**calc**ulus|微分積分学||
 |logic|**logic**|論理|推論・論証系|
 |prob|**prob**ability theory|確率論||
+|geom|**geom**etry|幾何学||
+|alg|**alg**ebra|代数学|整数問題|
 |seq|**seq**uence|数列||
-|trig|**trig**onometric function​s|三角関数||
 |vec|**vec**tor|ベクトル||
