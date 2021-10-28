@@ -8,21 +8,7 @@ url: "https://kampachi-percy.github.io"
 lang: "ja"
 
 permalink: pretty
-exclude: 
-  - "node_modules/"
-  - "*.gemspec"
-  - "*.gem", "Gemfile"
-  - "Gemfile.lock"
-  - "package.json"
-  - "package-lock.json"
-  - "script/"
-  - "LICENSE.txt"
-  - "lib/"
-  - "bin/"
-  - "README.md"
-  - "Rakefile"
-  - "docs/etc/"
-  - "docs/other"
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "docs/etc/", "docs/other"]
 
 search_enabled: true
 
