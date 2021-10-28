@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ex_mathterro
+title: 超・数テロ
 has_children: true
 ---
 

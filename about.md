@@ -1,3 +1,9 @@
+---
+layout: default
+title: 数テロ改とは
+nav_order: 2
+---
+
 # 数テロ改の説明
 
 ## 「数テロ改」とは
