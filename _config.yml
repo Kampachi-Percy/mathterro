@@ -15,8 +15,8 @@ search_enabled: true
 back_to_top: false
 
 footer_content: |
-  Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">MIT license.</a><br>
-  <a href="https://github.com/Kampachi-Percy/mathterro">Mathterro</a> is maintained by <a href="https://github.com/Kampachi-Percy">Kampachi-Percy</a>.
+  Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href="https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt" target="_blank" rel="noopener noreferrer">MIT license.</a><br>
+  <a href="https://github.com/Kampachi-Percy/mathterro" target="_blank" rel="noopener noreferrer">Mathterro</a> is maintained by <a href="https://github.com/Kampachi-Percy" target="_blank" rel="noopener noreferrer">Kampachi-Percy</a>.
 
 # Footer last edited timestamp
 last_edit_timestamp: false # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
