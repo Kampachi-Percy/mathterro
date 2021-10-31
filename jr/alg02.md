@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: jr
+parent: 中学生版
 title: ★積の形で絞り込み
 summary: 
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: jr
+parent: 中学生版
 title: ★あまりで分類
 summary: 
 ---

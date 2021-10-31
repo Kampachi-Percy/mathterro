@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: jr
+parent: 中学生版
 title: 関数 y=ax^2 の変化の割合
 summary: 
 ---
