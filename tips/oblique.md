@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: tips
+parent: お役立ち情報
 summary: 執筆中です
 ---
 
