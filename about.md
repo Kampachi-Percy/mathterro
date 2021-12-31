@@ -63,7 +63,7 @@ nav_order: 2
 |---|---|---|---|
 |eq|**eq**uation|方程式||
 |func|**func**tion|関数||
-|trig|**trig**onometric function​s|三角関数||
+|trig|**trig**onometric functions|三角関数||
 |exp|**exp**onential|指数関数|
 |log|**log**arithm|対数関数|
 |calc|**calc**ulus|微分積分学||
