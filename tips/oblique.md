@@ -1,10 +1,10 @@
 ---
 layout: default
 parent: お役立ち情報
-summary: 執筆中です
+summary: 高校数学ベクトルの本質
 ---
 
-# ベクトルと媒介変数と座標
+# ベクトルと斜交座標
 
 高校数学におけるベクトルの本当の姿を説明します。
 
@@ -62,20 +62,20 @@ $s$ と $t$ の大きさを調整すると、平面上のどの点でも表せ�
 
 この問題を教科書風に解くと、以下のようになります。
 
-> $s+t=3$ より, $\dfrac{1}{3}s + \dfrac{1}{3}t = 1$. 
-> また, $\overrightarrow{\mathrm{OP}} = \dfrac{1}{3}s \cdot 3 \overrightarrow{\mathrm{OA}} + \dfrac{1}{3}t \cdot 3 \overrightarrow{\mathrm{OB}}$ である.
-> ここで, $\dfrac{1}{3}s = s'$, $\dfrac{1}{3}t = t'$, $3\overrightarrow{\mathrm{OA}} = \overrightarrow{\mathrm{OA'}}$, $3\overrightarrow{\mathrm{OB}} = \overrightarrow{\mathrm{OB'}}$ とおくと,
-> $\overrightarrow{\mathrm{OP}} = s' \overrightarrow{\mathrm{OA'}} + t' \overrightarrow{\mathrm{OB'}}$, $s'+t'=1$ が成り立つ.
-> よって, 点 $\mathrm{P}$ は図の直線 $\mathrm{A'B'}$ 上にある.
+> $s+t=3$ より, $\dfrac{1}{3}s + \dfrac{1}{3}t = 1$.  
+> また, $\overrightarrow{\mathrm{OP}} = \dfrac{1}{3}s \cdot 3 \overrightarrow{\mathrm{OA}} + \dfrac{1}{3}t \cdot 3 \overrightarrow{\mathrm{OB}}$ である.  
+> ここで, $\dfrac{1}{3}s = s'$, $\dfrac{1}{3}t = t'$, $3\overrightarrow{\mathrm{OA}} = \overrightarrow{\mathrm{OA'}}$, $3\overrightarrow{\mathrm{OB}} = \overrightarrow{\mathrm{OB'}}$ とおくと,  
+> $\overrightarrow{\mathrm{OP}} = s' \overrightarrow{\mathrm{OA'}} + t' \overrightarrow{\mathrm{OB'}}$, $s'+t'=1$ が成り立つ.  
+> よって, 点 $\mathrm{P}$ は図の直線 $\mathrm{A'B'}$ 上にある.  
 > ![](img/ex1_n.drawio.svg)
 
 なんかくどい解答です。特に怒涛の4連置換に圧を感じます。
 
 では、斜交座標の考え方を用いた解答を書いてみます。高校生が書いても大丈夫なようにうまく表現してみました。[^1]
 
-> $\mathrm{O}$ を原点とし, $\mathrm{A}(1,0)$, $\mathrm{B}(0,1)$ となるような斜交座標系 $st$ を考える. 
-> $\overrightarrow{\mathrm{OP}} = s \overrightarrow{\mathrm{OA}} + t \overrightarrow{\mathrm{OB}}$ が成り立つことから, この斜交座標系において $\mathrm{P}(s,t)$ と表せる.
-> したがって, 点 $\mathrm{P}$ は図の直線 $s+t=3$ 上にある.
+> $\mathrm{O}$ を原点とし, $\mathrm{A}(1,0)$, $\mathrm{B}(0,1)$ となるような斜交座標系 $st$ を考える.  
+> $\overrightarrow{\mathrm{OP}} = s \overrightarrow{\mathrm{OA}} + t \overrightarrow{\mathrm{OB}}$ が成り立つことから, この斜交座標系において $\mathrm{P}(s,t)$ と表せる.  
+> したがって, 点 $\mathrm{P}$ は図の直線 $s+t=3$ 上にある.  
 > ![](img/ex1_o.drawio.svg)
 
 かなり簡潔に記述できていると思いますが、いかがでしょうか。
@@ -86,9 +86,9 @@ $s$ と $t$ の大きさを調整すると、平面上のどの点でも表せ�
 
 斜交座標で解いてみます。ほとんど定型文です。
 
-> $\mathrm{O}$ を原点とし, $\mathrm{A}(1,0)$, $\mathrm{B}(0,1)$ となるような斜交座標系 $st$ を考える. 
-> $\overrightarrow{\mathrm{OP}} = s \overrightarrow{\mathrm{OA}} + t \overrightarrow{\mathrm{OB}}$ が成り立つことから, この斜交座標系において $\mathrm{P}(s,t)$ と表せる.
-> したがって, 点 $\mathrm{P}$ は $0 \leqq s+t \leqq \dfrac{1}{2}$, $s \geqq 0$, $t \geqq 0$ が成り立つ領域, すなわち図の網掛けの部分(境界を含む)に存在する.
+> $\mathrm{O}$ を原点とし, $\mathrm{A}(1,0)$, $\mathrm{B}(0,1)$ となるような斜交座標系 $st$ を考える.  
+> $\overrightarrow{\mathrm{OP}} = s \overrightarrow{\mathrm{OA}} + t \overrightarrow{\mathrm{OB}}$ が成り立つことから, この斜交座標系において $\mathrm{P}(s,t)$ と表せる.  
+> したがって, 点 $\mathrm{P}$ は $0 \leqq s+t \leqq \dfrac{1}{2}$, $s \geqq 0$, $t \geqq 0$ が成り立つ領域, すなわち図の網掛けの部分(境界を含む)に存在する.  
 > ![](img/ex2_o.drawio.svg)
 
 斜交座標を設定すると、$s$ と $t$ の条件式がすべて座標平面上の図形で表せるので、とても見通しが立ちやすくなります。
@@ -99,23 +99,39 @@ $s$ と $t$ の大きさを調整すると、平面上のどの点でも表せ�
 
 この問題では $s$ と $t$ が独立しているので、普通に解くと大変です。[^2] しかし斜交座標で解くと瞬殺です。
 
-> $\mathrm{O}$ を原点とし, $\mathrm{A}(1,0)$, $\mathrm{B}(0,1)$ となるような斜交座標系 $st$ を考える. 
-> $\overrightarrow{\mathrm{OP}} = s \overrightarrow{\mathrm{OA}} + t \overrightarrow{\mathrm{OB}}$ が成り立つことから, この斜交座標系において $\mathrm{P}(s,t)$ と表せる.
-> したがって, 点 $\mathrm{P}$ は $1 \leqq s \leqq 2$, $0 \leqq t \leqq 1$ が成り立つ領域, すなわち図の網掛けの部分(境界を含む)に存在する.
+> $\mathrm{O}$ を原点とし, $\mathrm{A}(1,0)$, $\mathrm{B}(0,1)$ となるような斜交座標系 $st$ を考える.  
+> $\overrightarrow{\mathrm{OP}} = s \overrightarrow{\mathrm{OA}} + t \overrightarrow{\mathrm{OB}}$ が成り立つことから, この斜交座標系において $\mathrm{P}(s,t)$ と表せる.  
+> したがって, 点 $\mathrm{P}$ は $1 \leqq s \leqq 2$, $0 \leqq t \leqq 1$ が成り立つ領域, すなわち図の網掛けの部分(境界を含む)に存在する.  
 > ![](img/ex3_o.drawio.svg)
 
 ### 問題 4
 
-> $\triangle \mathrm{OAB}$ において, 辺 $\mathrm{OA}$ を $3:1$ に内分する点を $\mathrm{C}$, 辺 $\mathrm{OB}$ を $2:3$ に内分する点を $\mathrm{D}$ とし, 線分 $\mathrm{AD}$ と線分 $\mathrm{BC}$ の交点を $\mathrm{P}$ とする. また, 直線 $\mathrm{OP}$ と辺 $\mathrm{AB}$ の交点を $\mathrm{Q}$ とする. このとき, $\mathrm{AQ}:\mathrm{QB}$ および $\mathrm{OP}:\mathrm{PQ}$ を求めよ.
+> $\triangle \mathrm{OAB}$ において, 辺 $\mathrm{OA}$ を $3:1$ に内分する点を $\mathrm{C}$, 辺 $\mathrm{OB}$ を $2:3$ に内分する点を $\mathrm{D}$ とし, 線分 $\mathrm{AD}$ と線分 $\mathrm{BC}$ の交点を $\mathrm{P}$ とする. また, 直線 $\mathrm{OP}$ と辺 $\mathrm{AB}$ の交点を $\mathrm{Q}$ とする. このとき, $\overrightarrow{\mathrm{OA}}$ と $\overrightarrow{\mathrm{OB}}$ を用いて $\overrightarrow{\mathrm{OP}}$ を表せ.
 
 正攻法で解くのが簡単ですが(詳しくは [2022/01/07]() の解答を参照してください)、斜交座標の考え方を用いても解けます。
 
-> $\mathrm{O}$ を原点とし, $\mathrm{A}(1,0)$, $\mathrm{B}(0,1)$ となるような斜交座標系 $st$ を考える. 
-> $\overrightarrow{\mathrm{OP}} = s \overrightarrow{\mathrm{OA}} + t \overrightarrow{\mathrm{OB}}$ が成り立つことから, この斜交座標系において $\mathrm{P}(s,t)$ と表せる.
+> $\mathrm{O}$ を原点とし, $\mathrm{A}(1,0)$, $\mathrm{B}(0,1)$ となるような斜交座標系 $st$ を考える.  
+> $\overrightarrow{\mathrm{OP}} = s \overrightarrow{\mathrm{OA}} + t \overrightarrow{\mathrm{OB}}$ が成り立つことから, この斜交座標系において $\mathrm{P}(s,t)$ と表せる.  
+> いま, $\mathrm{C}\left(\dfrac{3}{4},0 \right)$, $\mathrm{D}\left(0, \dfrac{2}{5}\right)$ と表せるので, 直線 $\mathrm{AC}$, $\mathrm{BD}$ の式はそれぞれ  
+> 直線 $\mathrm{AC}: t=-\dfrac{4}{3}s+1$,  
+> 直線 $\mathrm{BD}: t=-\dfrac{2}{5}s+\dfrac{2}{5}$ となる.  
+> $\mathrm{P}$ はこれら $2$ 直線の交点だから, $\mathrm{P}\left(\dfrac{9}{14}, \dfrac{1}{7}\right)$ となる.  
+> したがって, $\overrightarrow{\mathrm{OP}} = \dfrac{9}{14} \overrightarrow{\mathrm{OA}} + \dfrac{1}{7} \overrightarrow{\mathrm{OB}}$ である.  
+> ![](img/ex4_o.drawio.svg)
 
+## 斜交座標の考え方で解決できないこと
+
+斜交座標では、**長さ**と**角度**を扱うことはできません。[^3]
+
+- 内積の値を用いるとき
+  内積は長さと角度を用いて定義される量です。斜交座標では、長さと角度を直交座標と同じように考えることはできません。
+- 曲線を扱うとき
+  斜交座標上で円などの図形を扱うと、まず見た目が円でなくなります。やはり長さと角度が必要になるので、避けましょう。
 
 
 
 [^1]: 線形代数を学習すると「 $\mathrm{O}$ を原点とし, $\overrightarrow{\mathrm{OA}}$, $\overrightarrow{\mathrm{OB}}$ を**基底**とする斜交座標系 $st$ を考える」と書けます。
 
 [^2]: 一般的な解き方は、$s$ を固定して $t$ のみを動かし、できた線分を $s$ の範囲で動かすというものです。とても大切な考え方ですが、難しいです。
+
+[^3]: ちゃんとやれば正しい結果は出ますが、ただ面倒になります。
