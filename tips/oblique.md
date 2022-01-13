@@ -111,10 +111,10 @@ $s$ と $t$ の大きさを調整すると、平面上のどの点でも表せ�
 正攻法で解くのが簡単ですが(詳しくは [2022/01/07](https://kampachi-percy.github.io/mathterro/2022/20220107_vec/) の解答を参照してください)、斜交座標の考え方を用いても解けます。
 
 > $\mathrm{O}$ を原点とし, $\mathrm{A}(1,0)$, $\mathrm{B}(0,1)$ となるような斜交座標系 $st$ を考える.  
-> $\overrightarrow{\mathrm{OP}} = s \overrightarrow{\mathrm{OA}} + t \overrightarrow{\mathrm{OB}}$ が成り立つことから, この斜交座標系において $\mathrm{P}(s,t)$ と表せる.  
-> いま, $\mathrm{C}\left(\dfrac{3}{4},0 \right)$, $\mathrm{D}\left(0, \dfrac{2}{5}\right)$ と表せるので, 直線 $\mathrm{AC}$, $\mathrm{BD}$ の式はそれぞれ  
-> 直線 $\mathrm{AC}: t=-\dfrac{4}{3}s+1$,  
-> 直線 $\mathrm{BD}: t=-\dfrac{2}{5}s+\dfrac{2}{5}$ となる.  
+> この斜交座標系において $\mathrm{P}(s,t)$ は $\overrightarrow{\mathrm{OP}} = s \overrightarrow{\mathrm{OA}} + t \overrightarrow{\mathrm{OB}}$ と表せる.  
+> いま, $\mathrm{C}\left(\dfrac{3}{4},0 \right)$, $\mathrm{D}\left(0, \dfrac{2}{5}\right)$ と表せるので, 直線 $\mathrm{AD}$, $\mathrm{BC}$ の式はそれぞれ  
+> 直線 $\mathrm{AD}: t=-\dfrac{2}{5}s+\dfrac{2}{5}$,   
+> 直線 $\mathrm{BC}: t=-\dfrac{4}{3}s+1$ となる.  
 > $\mathrm{P}$ はこれら $2$ 直線の交点だから, $\mathrm{P}\left(\dfrac{9}{14}, \dfrac{1}{7}\right)$ となる.  
 > したがって, $\overrightarrow{\mathrm{OP}} = \dfrac{9}{14} \overrightarrow{\mathrm{OA}} + \dfrac{1}{7} \overrightarrow{\mathrm{OB}}$ である.  
 > ![](img/ex4_o.drawio.svg)
