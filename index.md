@@ -13,7 +13,6 @@ nav_order: 1
 
 ## 最近の問題
 
+- [2022/01/21](https://kampachi-dev.github.io/mathterro/2022/20220121_func_eq/)
 - [2022/01/14]({{ site.baseurl }}/2022/20220114_prob)
 - [2022/01/07]({{ site.baseurl }}/2022/20220107_vec)
-- [2021/12/31]({{ site.baseurl }}/2021/20211231_calc)
-- [2021/12/24]({{ site.baseurl }}/2021/20211224_alg)
