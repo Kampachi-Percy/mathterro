@@ -11,20 +11,19 @@ summary:
 - [概要](#概要)
 - [最終目標](#最終目標)
 - [かんたん](#かんたん)
-    - [調和数列](#調和数列)
+    - [調和数列型](#調和数列型)
     - [特殊解型](#特殊解型)
     - [n 次式型](#n-次式型)
-        - [1 次式](#1-次式)
-        - [2 次式](#2-次式)
     - [指数型](#指数型)
     - [階比数列型](#階比数列型)
     - [対数型](#対数型)
     - [簡易分数型](#簡易分数型)
 - [むずかしい](#むずかしい)
-    - [和 S<sub>n</sub> 型](#和-ssubnsub-型)
-    - [f(n)a<sub>n+1</sub> = f(n+1)a<sub>n</sub> + g(n)](#fnasubn1sub--fn1asubnsub--gn)
+    - [和 Sn 型](#和-sn-型)
+    - [f(n)f(n+1) で割る型](#fnfn1-で割る型)
     - [1 次分数型](#1-次分数型)
     - [隣接 3 項間型](#隣接-3-項間型)
+    - [連立漸化式](#連立漸化式)
 
 ## 概要
 
@@ -45,7 +44,7 @@ summary:
 
 ## かんたん
 
-### 調和数列
+### 調和数列型
 
 $$\frac{1}{a_{n+1}} - \frac{1}{a_n} = d$$
 
@@ -67,7 +66,7 @@ $$
 \begin{align}
 a_{n+1} &= pa_n + q \newline
 -) \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \alpha &= p\alpha + q\newline
-a_{n+1} - \alpha &= p(a_n - \alpha)
+\underline{a_{n+1} - \alpha} &= p(\underline{a_n - \alpha})
 \end{align}
 $$
 
@@ -79,19 +78,19 @@ $\lbrace a_n - \alpha\rbrace$ は、初項 $a_1-\alpha$ 、公比 $p$ の等比�
 
 $$ a_{n+1} = pa_n + f(n) $$
 
-等比型の目標の式を先に書き、元の漸化式と係数比較する。
+等比型の目標の式を先に書き、元の漸化式と係数比較する。ここでは $f(n)$ が $1$ 次式の場合と $2$ 次式の場合を説明する。
 
-#### 1 次式
+まず、$f(n)$ が $1$ 次式の場合、目標の式は以下のようになる。
 
 $$ \underline{a_{n+1}+\alpha(n+1)+\beta} = p(\underline{a_n+\alpha n+\beta}) $$
 
-下線部が左辺 $n+1$ 右辺 $n$ でまとまっていることを確認してほしい。この式を整理して
+下線部が左辺 $n+1$ 右辺 $n$ でまとまっていることを確認してほしい。この式を整理して、
 
 $$ a_{n+1} = pa_n + \underline{(p\alpha-\alpha) n + (p\beta -\alpha -\beta)} $$
 
 下線部が $1$ 次式になっているので、$f(n)$ と係数比較して $\alpha$, $\beta$ を求める。
 
-#### 2 次式
+次に、$f(n)$ が $2$ 次式の場合、目標の式は以下のようになる。
 
 $$ \underline{a_{n+1}+\alpha(n+1)^2+\beta(n+1)+\gamma}=p(\underline{a_n+\alpha n^2+\beta n+\gamma}) $$
 
@@ -101,7 +100,7 @@ $$ \underline{a_{n+1}+\alpha(n+1)^2+\beta(n+1)+\gamma}=p(\underline{a_n+\alpha n
 
 $$ a_{n+1} = pa_n + r^n $$
 
-両辺を $r^{n+1}$ で割ると
+両辺を $r^{n+1}$ で割ると、
 
 $$ \frac{a_{n+1}}{r^{n+1}} = \frac{p}{r} \cdot \frac{a_n}{r^n} + \frac{1}{r} $$
 
@@ -152,11 +151,11 @@ $b_n = \dfrac{1}{a_n}$ とおくと特殊解型になる。
 ## むずかしい
 
 
-### 和 S<sub>n</sub> 型
+### 和 Sn 型
 
 $a_1 = S_1$ から初項を求めたあと、和と一般項の関係 $a_{n+1} = S_{n+1} - S_n$ を用いて $S_n$ を消去する。
 
-### f(n)a<sub>n+1</sub> = f(n+1)a<sub>n</sub> + g(n)
+### f(n)f(n+1) で割る型
 
 $$ f(n)a_{n+1} = f(n+1)a_n + g(n) $$
 
@@ -209,7 +208,7 @@ $$ \alpha = \frac{p\alpha+q}{r\alpha+s} $$
 
 $$ a_{n+1} - \alpha = \frac{P(a_n-\alpha)}{ra_n+s} $$
 
-となり、$b_n = a_n - \alpha$ とおくと [1 次分数型](#1-次分数型)になる。
+となり、$b_n = a_n - \alpha$ とおくと[簡易分数型](#簡易分数型)になる。
 
 ### 隣接 3 項間型
 
@@ -261,6 +260,57 @@ a_{n+2}-ta_{n+1} &= s(a_{n+1}-ta_n)
 から $\lbrace a_{n+1}-sa_n \rbrace$ と $\lbrace a_{n+1}-ta_n \rbrace$ の一般項をそれぞれ求めて、辺々を引いて $a_{n+1}$ を消去することもできる。
 
 </details>
+
+### 連立漸化式
+
+$$\left\lbrace
+\begin{align}
+a_{n+1} = pa_n + qb_n \newline
+b_{n+1} = ra_n + sb_n
+\end{align}
+\right.$$
+
+係数が対称になっているなら連立して解く。対称でないなら[隣接 3 項間型](#隣接-3-項間型)に帰着させる。
+
+まず、係数が対称になっているときを説明する。
+
+$$\left\lbrace
+\begin{align}
+a_{n+1} = pa_n + qb_n \newline
+b_{n+1} = qa_n + pb_n
+\end{align}
+\right.$$
+
+$2$ 式の和と差はそれぞれ
+
+$$\left\lbrace
+\begin{align}
+\underline{a_{n+1} + b_{n+1}} = (p+q)(\underline{a_n+b_n}) \newline
+\underline{a_{n+1} - b_{n+1}} = (p-q)(\underline{a_n-b_n})
+\end{align}
+\right.$$
+
+で、これはいずれも等比型なので、
+
+$$\left\lbrace
+\begin{align}
+a_n+b_n = (a_1+b_1)\cdot(p+q)^{n-1} \newline
+a_n-b_n = (a_1-b_1)\cdot(p-q)^{n-1}
+\end{align}
+\right.$$
+
+と表せる。この $2$ 式の和と差をとると $a_n$, $b_n$ がそれぞれ求まる。
+
+次に、係数が対称でないときを説明する。
+
+$$\left\lbrace
+\begin{align}
+a_{n+1} = pa_n + qb_n \newline
+b_{n+1} = ra_n + sb_n
+\end{align}
+\right.$$
+
+$a_{n+1} = pa_n + qb_n$ より、$b_n = \dfrac{1}{q} (a_{n+1} - pa_n)$, $b_{n+1} = \dfrac{1}{q} (a_{n+2} - pa_{n+1})$ が成り立つ。$b_{n+1} = ra_n + sb_n$ に代入すると、[隣接 3 項間型](#隣接-3-項間型)になる。
 
 
 [^1]: 数学では「ある式の特徴を示す数を求めるシンプルな方程式」のことを雑に「特性方程式」と呼ぶことが多い。根源は行列の固有多項式にある。
