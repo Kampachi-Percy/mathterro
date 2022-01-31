@@ -74,7 +74,7 @@ $ a,\ b \in A $ ならば $a-b \in A$
 
 <div align="center" markdown="1">
 
-$ (a)=\lbrace an | n$ は整数 $\rbrace$
+$ (a)=\lbrace an \| n$ は整数 $\rbrace$
 
 </div>
 
