@@ -3,7 +3,7 @@ remote_theme: pmarsceill/just-the-docs
 title: 数テロ改
 description: 高校生の記述力向上を目指すサイト
 baseurl: "/mathterro"
-url: "https://Kampachi-dev.github.io"
+url: "https://kampachi-dev.github.io"
 
 lang: "ja"
 

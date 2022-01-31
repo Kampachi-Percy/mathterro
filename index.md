@@ -13,6 +13,7 @@ nav_order: 1
 
 ## 最近の問題
 
+- [超・数テロ 2022冬](https://kampachi-dev.github.io/mathterro/ex_mathterro/ex_mathterro_2022Winter/)
 - [2022/01/28](https://kampachi-dev.github.io/mathterro/2022/20220128_calc/)
 - [2022/01/21](https://kampachi-dev.github.io/mathterro/2022/20220121_func_eq/)
 - [2022/01/14]({{ site.baseurl }}/2022/20220114_prob)
