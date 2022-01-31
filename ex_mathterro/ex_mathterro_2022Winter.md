@@ -40,7 +40,7 @@ $n$ を自然数とする. 以下の漸化式 $$a_1=1,\ a_2=2,\ a_{n+2}-3a_n=4n$
 
 一辺の長さが $10$ の正方形内に以下の図のように円を描くとき, 弧 $\mathrm{OA}$, 弧 $\mathrm{OB}$, 弧 $\mathrm{AB}$ で囲まれた部分の面積を求めよ.
 
-<div align="center">
+<div align="center" markdown="1">
 
 ![](img/2022winter_circ.png)
 
