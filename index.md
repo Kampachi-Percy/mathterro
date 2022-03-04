@@ -13,6 +13,7 @@ nav_order: 1
 
 ## 最近の問題
 
+- [2022/03/04](https://kampachi-dev.github.io/mathterro/2022/20220304_prob/)
 - [2022/02/25](https://kampachi-dev.github.io/mathterro/2022/20220225_eq/)
 - [2022/02/18](https://kampachi-dev.github.io/mathterro/2022/20220218_vec/)
 - [2022/02/04](https://kampachi-dev.github.io/mathterro/2022/20220204_geom/)
