@@ -2,6 +2,7 @@
 layout: default
 parent: sandbox
 summary: 
+mermaid: true
 ---
 
 # mermaid 記法の練習
