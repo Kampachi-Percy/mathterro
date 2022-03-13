@@ -9,26 +9,6 @@ mermaid: true
 
 [この記事](https://qiita.com/narita1980/items/2cc69fc1d481e4ee6b08)を参考にしました。
 
-```mermaid!
-graph TD
-    A[Christmas] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
-```
-
-<div class="mermaid">
-
-graph TD
-    A[Christmas] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
-
-</div>
-
 ```mermaid
 graph TD
     A[Christmas] -->|Get money| B(Go shopping)
