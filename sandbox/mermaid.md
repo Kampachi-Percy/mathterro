@@ -4,6 +4,10 @@ parent: sandbox
 summary: 
 ---
 
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});
+</script>
+
 # mermaid 記法の練習
 
 [この記事](https://qiita.com/narita1980/items/2cc69fc1d481e4ee6b08)を参考にしました。
