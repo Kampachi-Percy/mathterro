@@ -9,7 +9,7 @@ mermaid: true
 
 [この記事](https://qiita.com/narita1980/items/2cc69fc1d481e4ee6b08)を参考にしました。
 
-```mermaid
+```mermaid!
 graph TD
     A[Christmas] -->|Get money| B(Go shopping)
     B --> C{Let me think}
