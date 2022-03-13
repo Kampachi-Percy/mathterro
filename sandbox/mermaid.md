@@ -17,7 +17,7 @@ graph TD
     C -->|Three| F[fa:fa-car Car]
 ```
 
-<div class="mermaid">
+<div class="mermaid" markdown="1">
 
 graph TD
     A[Christmas] -->|Get money| B(Go shopping)
