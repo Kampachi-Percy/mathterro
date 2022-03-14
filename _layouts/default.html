@@ -200,6 +200,8 @@ layout: table_wrappers
   </div>
 </body>
 
+{% if page.mermaid == true %}
+
 <script>
   var config = {
     startOnLoad:true,
@@ -211,5 +213,7 @@ layout: table_wrappers
   mermaid.initialize(config);
   window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
 </script>
+
+{% endif %}
 
 </html>

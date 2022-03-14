@@ -18,6 +18,8 @@ graph TD
     C -->|Three| F[fa:fa-car Car]
 ```
 
+車のマーク出ないっぽい
+
 ```mermaid
 sequenceDiagram
     Alice->>+John: Hello John, how are you?
