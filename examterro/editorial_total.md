@@ -3,7 +3,6 @@ layout: default
 parent: 模試テロ
 has_children: true
 summary:
-published: false
 ---
 
 # 第 vol 回
