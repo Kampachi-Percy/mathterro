@@ -14,8 +14,6 @@ nav_order: 1
 
 ## 最近の問題
 
+- [模試テロ 第3回](https://kampachi-dev.github.io/mathterro/examterro/03/)
 - [模試テロ 第2回](https://kampachi-dev.github.io/mathterro/examterro/02/)
 - [模試テロ 第1回](https://kampachi-dev.github.io/mathterro/examterro/01/)
-- [2022/03/25](https://kampachi-dev.github.io/mathterro/2022/20220325_exp_eq/)
-- [2022/03/18](https://kampachi-dev.github.io/mathterro/2022/20220318_alg/)
-- [超・数テロ 2022冬](https://kampachi-dev.github.io/mathterro/ex_mathterro/ex_mathterro_2022Winter/)
