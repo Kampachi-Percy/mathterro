@@ -14,6 +14,8 @@ nav_order: 1
 
 ## 最近の問題
 
+- [模試テロ 第6回](https://kampachi-dev.github.io/mathterro/examterro/06/)
+- [模試テロ 第5回](https://kampachi-dev.github.io/mathterro/examterro/05/)
 - [模試テロ 第4回](https://kampachi-dev.github.io/mathterro/examterro/04/)
 - [模試テロ 第3回](https://kampachi-dev.github.io/mathterro/examterro/03/)
 - [模試テロ 第2回](https://kampachi-dev.github.io/mathterro/examterro/02/)
